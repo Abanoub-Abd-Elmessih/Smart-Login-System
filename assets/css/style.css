@@ -1,0 +1,18 @@
+body{
+    background-image: url(../imgs/5153829.jpg);
+    background-size: cover;
+}
+.form-control::placeholder{
+    color: rgb(142, 132, 132);
+}
+
+.bg-color-main{
+    background-color: #004da4;
+}
+.bg-color-main:hover{
+    background-color: #003694;
+}
+.main-color{
+    color: #004da4;
+    font-weight: 400;
+}

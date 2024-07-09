@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FaviCon -->
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Start Login Page -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8 col-sm-10 col-12 shadow-lg bg-light bg-opacity-25  p-5 text-center mt-5">
+                <h1 class="display-4 mb-5 main-color">Smart Login System</h1>
+                <input class="form-control my-3 rounded-1" placeholder="Enter your Email" type="email" id="loginEmail">
+                <input class="form-control my-3 rounded-1" placeholder="Enter your Password" type="password" id="loginPass">
+                <p class="infoText"></p>
+                <button class="signInBtn btn bg-color-main text-white w-100 my-4">Login</button>
+                <p class="d-inline">Don’t have an account?</p>
+                <a href="signup.html" class="main-color text-opacity-50 text-decoration-none">Sign Up</a>
+            </div>
+        </div>
+</div>
+    <!-- End Login Page -->
+         <!-- Error Model -->
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-danger" id="errorModalLabel">Error <i class="fa-solid fa-exclamation"></i></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Error Model -->
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
